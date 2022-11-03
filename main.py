@@ -6,6 +6,14 @@ import requests
 import os
 import random
 
+today = datetime.now()
+start_date = os.environ['START_DATE']
+
+app_id = os.environ["APP_ID"]
+app_secret = os.environ["APP_SECRET"]
+
+user_id = os.environ["USER_ID"]
+template_id = os.environ["TEMPLATE_ID"]
 
 # def get_birthday():
 #   next = datetime.strptime(str(date.today().year) + "-" + birthday, "%Y-%m-%d")
